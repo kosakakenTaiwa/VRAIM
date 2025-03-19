@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/KosakaKen/DictationAI/Scene/DictationLoggingApp_Unity.unity
+    guid: fcc986dbd9e1e8d468ee5e409ff7780b
+  - enabled: 1
+    path: Assets/KosakaKen/DictationAI/Scene/DictationLoggingApp_HatsuneMiku.unity
+    guid: 6b27187bcef4813488f650d60a0e8d9c
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 01f5818704130dc46821d996948083a6,
+      type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 0b73b9d2d4b62974dad2338e2be06157,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 5c05e79f2937ec74cb85dba16b32e9b5,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 643f7b94cf750ac4780ff3608bcaf546,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ea351a3505e44f0409506086db92f2ec,
+      type: 2}

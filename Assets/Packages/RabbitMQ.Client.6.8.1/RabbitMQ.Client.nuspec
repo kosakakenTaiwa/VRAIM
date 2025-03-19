@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>RabbitMQ.Client</id>
+    <version>6.8.1</version>
+    <authors>VMware</authors>
+    <license type="expression">Apache-2.0 OR MPL-2.0</license>
+    <licenseUrl>https://licenses.nuget.org/Apache-2.0%20OR%20MPL-2.0</licenseUrl>
+    <icon>icon.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://www.rabbitmq.com/dotnet.html</projectUrl>
+    <description>The RabbitMQ .NET client is the official client library for C# (and, implicitly, other .NET languages)</description>
+    <copyright>Copyright © 2007-2020 VMware, Inc. or its affiliates.</copyright>
+    <tags>rabbitmq, amqp</tags>
+    <repository type="git" url="https://github.com/rabbitmq/rabbitmq-dotnet-client.git" commit="b3840a9f34a0659c1ec5d5c80352d3a3648e9371" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Channels" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Memory" version="4.5.5" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Channels" version="7.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

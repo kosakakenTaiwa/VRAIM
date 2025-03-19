@@ -1,0 +1,54 @@
+{
+    "name": "ButtonChange",
+    "maps": [
+        {
+            "name": "GripAction",
+            "id": "0c43ea1a-9256-49e4-865b-b37be9c36f64",
+            "actions": [
+                {
+                    "name": "ActionLeft",
+                    "type": "Button",
+                    "id": "170f8604-87e1-4298-bdcc-a95e7423f223",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ActionRight",
+                    "type": "Button",
+                    "id": "f2836de4-efc8-4285-863f-54b0b7328f88",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f233a0af-963d-44e6-bd17-aa00306de1ad",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActionLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff079c4f-7dbd-458d-8d42-b65e125dfa43",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActionRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

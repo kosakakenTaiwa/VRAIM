@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4663767848053721074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8570385512072595886}
+  - component: {fileID: 3156202883183270288}
+  - component: {fileID: 3650289822528102364}
+  - component: {fileID: 7366549595471290762}
+  - component: {fileID: 5115998623512835437}
+  - component: {fileID: 1020758134162210210}
+  m_Layer: 0
+  m_Name: Agent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8570385512072595886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663767848053721074}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2716.536, y: -488.7303, z: -18.949657}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3156202883183270288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663767848053721074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a72eea3a4b6b4f3b893d71438bbf1d25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dialogueChannelName: dialogue
+  _ttsChannelsName: tts
+  _dialogue2ChannelsName: dialogue2
+--- !u!114 &3650289822528102364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663767848053721074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72fe6b9859749438c2a977235c10198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _voiceAudioSource: {fileID: 0}
+  _speechBlockCount: 5
+  _speechScheduler:
+    _parameter:
+      _speechDelay: 0.001
+--- !u!114 &7366549595471290762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663767848053721074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a08a0079fdb4ca295b68629c03c0419, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _agentHeight:
+    value: 1
+--- !u!114 &5115998623512835437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663767848053721074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63dc6a6b3d7f4d0591ef67dd35a381a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _agentObject: {fileID: 0}
+--- !u!114 &1020758134162210210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4663767848053721074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a88dc8dd9bf4231b94822494d502b95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  _agentAnimationProperties:
+  - ActionType: 2
+    TriggerName: Nod
+  - ActionType: 4
+    TriggerName: Thinking
+  - ActionType: 5
+    TriggerName: LightGreeting
+  - ActionType: 6
+    TriggerName: Greeting
+  - ActionType: 7
+    TriggerName: WaveHand
+  - ActionType: 8
+    TriggerName: WaveHands
+  - ActionType: 9
+    TriggerName: LookAround
