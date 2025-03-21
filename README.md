@@ -2,7 +2,7 @@
 ***
 
 ## 概要
-RemdisのシステムとUnityのシステムを連携して、マルチモーダル対話をVR空間で実現するプロジェクト。
+NTTの千葉祐弥氏らか開発した[Remdis](https://github.com/remdis/remdis)のシステムとUnityのシステムを連携して、マルチモーダル対話をVR空間で実現するプロジェクト。
 
 ## 注意事項
 本システムは開発者の環境では動作しますが、利用者の環境での動作を保証するものではありません。
@@ -72,6 +72,40 @@ def parallel_response_generation(self):
 ![alt text](Assets/KosakaKen/OriginalModel/YoneyamaAI/KosakaAi_V1.1_M1.0.vrm1.Textures/thumbnail__VRM10.png)
 
 モデル製作者：のぎねん
+
+## ライセンス
+
+### ソースコードの利用規約
+このレポジトリに含まれる`Assets/KosakaKen`以下のオリジナルのファイルのライセンスは，Apache License 2.0です。商用・非商用問わずに、お使いいただけます。 
+本プロジェクトデータに含まれる「米山アイ」の利用規約については `Assets/KosakaKen/OriginalModel/README.md`を参照してください。
+他のライセンスがすでに付与されているファイルがありますのでそのライセンスにも注意を払って利用してください。
+
+```
+Copyright 2025 Kenta Hosoya, Tetsuo Kosaka
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+```
+
+### 外部パッケージの利用規約
+VRAIMで使用している外部パッケージは以下の通りです。
+- Remdis
+  - Google Cloud Speech-to-Text API
+  - ttslearn
+  - OpenAI API
+  - VAP
+- RabbitMQ.Client
+- NAudio
+
+本リポジトリの利用にあたってはそれぞれの利用規約をご確認ください。
 
 ## 参考文献
 
