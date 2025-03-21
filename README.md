@@ -16,7 +16,7 @@ RemdisのシステムとUnityのシステムを連携して、マルチモーダ
   - [MetaQuestでの実行方法](doc/Readme/4_MetaQuest_Execute_Guide_ja.md)
 - 開発
   - [環境概要](doc/Readme/Environmental_OverView.md)
-  - [システムの全体図](doc/Readme/SystemOverView.md)
+  - [システムの全体図](doc/Readme/SystemOverView_ja.md)
   - [RabbitMQとの連携](doc/Readme/RabbitMqClient.md)
 
 ## Remdisへの変更点
