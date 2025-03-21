@@ -1,6 +1,6 @@
 ## ライセンス
 
-本3Dモデルは CC By 4.0 ライセンスで提供されます。
+この作品はCC BY 4.0ライセンスで提供されており、「Yoneyama Ai / Yamagata Univ.」のクレジットを表示すれば無料で使用できます。
 [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
 ## モデルの利用について
