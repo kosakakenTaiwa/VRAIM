@@ -21,7 +21,14 @@ NTTの千葉祐弥氏らか開発した[Remdis](https://github.com/remdis/remdis
 
 ## Remdisへの変更点
 
-### プロンプト
+VRAIMとの連携の都合上Remdisを以下のように一部改変し再配布しています。
+主な修正点は以下の通りです。
+
+- OpenAI APIに対するプロンプト
+- 対話管理部(dialogue.py)
+- VAPおよびMMDAgent-EXの削除
+
+### OpenAI APIに対するプロンプト
 
 Remdis/modules/prompt/response.txt  
 複数の質問を重ねるようにエージェントが応答してしまうため、応答内容に含める質問は一つに絞るようにプロンプトを変更しています。  
@@ -37,7 +44,7 @@ Remdis/modules/prompt/response.txt
 ==
 ```
 
-### コード
+### 対話管理部(dialogue.py)
 
 Remdis/modules/dialogue.py  
 本研究室の環境では一つ前の発話に対して応答してしまったため、遅延を設けています。  
@@ -61,6 +68,12 @@ def parallel_response_generation(self):
             self.event_queue.put('ASR_COMMIT')
         iu_memory = []
 ```
+
+### VAPおよびMMDAgent-EXの削除
+
+本システムでは必要が無いため削除しています。
+なおそれらがインストールされていてもいなくても動作には影響ありません。
+VRAIM/Remdis/の「インストール方法」にはStep 4、Step 5でVAPとMMDAgent-EXのインストール方法が記載されていますが、実行しなくてもVRAIMは動作します。
 
 ## オリジナル3Dキャラクター「米山アイ」
 本プロジェクトではオリジナル3Dキャラクター「米山 アイ（よねやま あい）」を使用しています。
